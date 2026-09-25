@@ -1,8 +1,4 @@
-"""
-Backs the .audit-flow / .review UI: a simple in-memory queue of
-low-confidence answers awaiting human approve/reject/edit.
-Swap the in-memory dict for a real DB table in production.
-"""
+
 import uuid
 from typing import List, Optional
 from .schemas import ReviewItem
